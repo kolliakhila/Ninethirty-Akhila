@@ -7,7 +7,7 @@
            Palindrome : A palindrome is a word, phrase, number, or sequence of characters that reads the same backward as  
                           forward.
                              Ex:  MADAM,LEVEL
-
+                             
 3. what is meaning of purge?
        Purge: Purge means to completely remove or clear stored data, memory, cache, or unwanted items, so that 
               nothing remains.
