@@ -7,4 +7,5 @@ def count_vowels(s):
     return count
 
 text = "What is Python"
+
 print("Number of vowels:", count_vowels(text))
