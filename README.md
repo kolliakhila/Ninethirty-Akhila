@@ -26,3 +26,16 @@ what is self variable?
 4. How can you access the instance variables of outer calss from inner class?
    Create an outer class with instance variables.Create an inner class inside the outer class.When creating the inner class object, pass the outer class object to it.Use
    that reference to access the instance variables.
+
+19-09-2025
+
+1.How will you know that classes,functions of that particular module?
+   Using below handy tools we can know all that in a module: dir(module) → lists all attributes (names).
+                                                             help(module) → shows docs.
+                                                             inspect.getmembers(module, inspect.isfunction) → only functions.
+                                                             inspect.getmembers(module, inspect.isclass) → only classes.
+
+2.if __name__=="__main__": 
+              It checks whether a Python file is being run directly or being imported into another file.
+              When you run a Python file directly, Python sets the special variable __name__ to "__main__".
+              When you import that file as a module into another program, __name__ will be set to the file’s name (not "__main__").
