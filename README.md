@@ -115,7 +115,68 @@ what is self variable?
       PUT: Create new data.Used to send or create new data on the server.
       POST: Used to update or replace existing data on the server.
 
-   
-   
-     
+23-10-2025
+1.Difference between RAM,ROM and BIOS?
+   RAM: Random Access Memory,it’s the temporary memory of a computer.Stores data and instructions only while the computer is running.Volatile memory → data is lost when 
+        power is off.Used for Running programs, games, or any task currently being done.RAM = short-term working memory.
+        
+   ROM: Read Only Memory,It’s the permanent memory of the computer.Stores the instructions required to start the computer (called firmware).Non-volatile memory → data is 
+        not lost when power is off.Used for Storing programs that rarely change (like system boot instructions).ROM = permanent built-in memory that tells the computer how          to start.
+
+  BIOS: Basic Input/Output System,It’s a small program stored inside ROM.Runs when the computer is turned on (called booting process).Checks and initializes hardware 
+        (keyboard, mouse, hard drive, etc.).Then loads the operating system into RAM.BIOS = startup manager that helps the system boot and run properly.   
+
+2.What is Automation Process?
+   Automation is the process of making a system or task operate automatically using machines, software, or scripts.
+   Automation often means writing scripts to:
+                        Automatically handle data (read files, generate reports).
+                        Test web applications (using tools like Selenium).
+                        Manage servers or cloud resources (AWS automation).
+                        Deploy apps automatically (CI/CD pipelines).
+  Steps in an Automation Process:
+                     Identify repetitive task → e.g., daily data entry.
+                     Design workflow → how the process should happen.
+                     Use tools or scripts → Python, Jenkins, Selenium, etc.
+                     Test and monitor → ensure it works correctly.
+                     Optimize → make it faster and more efficient.
+ Benefits:
+         Saves time and effort
+         Reduces human errors
+         Improves consistency
+         Can run 24/7
+         Increases productivity
+
+3.What is the framework used to test the web application?
+    In web application development, testing frameworks help check whether the app works correctly — both frontend and backend parts.
+         1. Selenium (for Web UI Testing)
+         2. Pytest (for Backend & API Testing)
+         3. Postman (API Testing Tool)
+         4. Unittest (Built-in Python Testing Framework)
+         5. Cypress / Playwright (Modern Web Testing Tools)
+         Cucumber is a testing framework used for Behavior Driven Development (BDD).
+
+4.How can we calculate 1024?
+   1 KB=1024 bytes
+   Computers work in binary (base-2), so powers of 2 are very common.Computers use 1024 instead of 1000 because memory is binary-based, and powers of 2 (like 2¹⁰ = 1024)       fit perfectly with how data is stored and accessed.
+
+5.What is difference between SQL,MySQL,PLSQL and DB2?
+  SQL: Structured Query Language
+      SQL is a standard language used to communicate with databases.
+      It is not software, but a language used to perform tasks like:
+                                                Create databases and tables
+                                                Insert, update, and delete data
+                                                Retrieve data using queries
+
+MySQL: MySQL is a database management system (DBMS) — a software that uses SQL to store, organize, and retrieve data.
+       It is open-source and very popular in web development (used with PHP, Python, Node.js, etc.).
+
+PLSQL : Procedural Language SQL
+        PL/SQL is an extension of SQL used by Oracle Database.
+        It adds programming features like loops, conditions, and variables — so you can write stored procedures, triggers, and functions.
+
+DB2: DB2 is a Relational Database Management System (RDBMS) developed by IBM.
+     It also uses SQL but is known for high performance and scalability, often used in large enterprises and banking systems.
+       
+  
+    
 
