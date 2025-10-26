@@ -167,15 +167,121 @@ what is self variable?
                                                 Insert, update, and delete data
                                                 Retrieve data using queries
 
-MySQL: MySQL is a database management system (DBMS) — a software that uses SQL to store, organize, and retrieve data.
+ MySQL: MySQL is a database management system (DBMS) — a software that uses SQL to store, organize, and retrieve data.
        It is open-source and very popular in web development (used with PHP, Python, Node.js, etc.).
 
-PLSQL : Procedural Language SQL
+ PLSQL : Procedural Language SQL
         PL/SQL is an extension of SQL used by Oracle Database.
         It adds programming features like loops, conditions, and variables — so you can write stored procedures, triggers, and functions.
 
-DB2: DB2 is a Relational Database Management System (RDBMS) developed by IBM.
-     It also uses SQL but is known for high performance and scalability, often used in large enterprises and banking systems.
+ DB2: DB2 is a Relational Database Management System (RDBMS) developed by IBM.
+     It also uses SQL but is known for high performance and scalability, often used in large enterprises and banking systems. 
+
+6.What is connection and connection pooling?
+  Connection:
+            A connection is a link between your application (like Python code) and the database (like MySQL, PostgreSQL, etc.) that allows data exchange.
+            When your program wants to:
+                              Fetch data (SELECT)
+                              Add data (INSERT)
+                              Update data (UPDATE)
+                              Delete data (DELETE)
+            …it first needs to open a connection to the database server.
+
+Connection Pooling:
+             Connection Pooling is a technique to reuse existing database connections instead of opening and closing new ones every time.
+             It keeps a pool (collection) of open connections that can be shared by multiple users or requests.Pool keeps 3 active connections ready.
+             No need to create a new one each time.
+
+7.what is apllication server in cloud computing?
+           In cloud computing, an application server is a server that runs and manages your application’s logic and services — it acts as the middle layer between the     
+           frontend (user interface) and the backend database.
+                    When a user opens a website or app:
+                                       The frontend (browser/app) sends a request.
+                                       The application server processes it — runs the backend code (like Python, Java, Node.js).
+                                       Then it connects to the database to fetch or store data and sends a response back to the user.
+
+8.What is open source contribution,importance and how to contribute?
+  Open source:   Open Source means that the source code of a software project is publicly available for anyone to:
+                                              View 
+                                              Modify 
+                                              Distribute 
+                                              Contribute 
+ Open source contribution: Open Source Contribution means helping improve public projects in any way — not just coding!
+                           You can contribute by:
+                                        Fixing bugs 
+                                        Adding new features 
+                                        Improving documentation 
+                                        Translating content 
+                                        Testing code 
+                                        Helping other developers in discussions
+Importance:
+        Builds Your Resume: Recruiters love open-source contributors — it shows teamwork and practical skills.
+        Improves Skills: You learn real-world coding standards, version control (Git), and collaboration tools.
+        Networking:	You meet developers globally and build professional connections.
+        Learn from Experts:	You can read high-quality code written by experienced engineers.
+        Gives Confidence:	Your code becomes part of something used by thousands of people!
+Contribute to open source:
+         Step 1: Learn Git & GitHub-
+                          Create a GitHub account: https://github.com
+                          Learn basic commands:
+                                           git clone
+                                           git add
+                                           git commit
+                                           git push
+                                           git pull
+                                           git status
+         Step 2: Find a Beginner-Friendly Project-
+                           Search using:
+                                       https://goodfirstissue.dev
+                                       https://github.com/explore
+                                       Look for tags like: “good first issue”, “beginner”, or “help wanted”
+         Step 3: Understand the Project -
+                           Read the README.md file (it explains what the project does).
+                           Explore the issues tab to see what problems need fixing.
+         Step 4: Fork and Clone -
+                         Fork → make your own copy of the project.
+                         Clone → download it to your system.
+                         git clone https://github.com/your-username/project-name.git
+         Step 5: Make Your Changes -
+                         Create a new branch:
+                                     git checkout -b my-fix
+                                     Fix a bug or add a feature.
+                                     Commit your changes:
+                                                  git commit -m "Fixed typo in README"
+         Step 6: Push & Create Pull Request (PR) -
+                         Push your branch:
+                                    git push origin my-fix
+                                    Go to GitHub → Click “Compare & Pull Request” → Submit your PR.
+
+9. Differences of Var and Varchar
+     VarChar: VARCHAR (short for variable character) is a variable-length data type.
+              When you declare a column as VARCHAR(n), it can store up to n characters.
+              It uses only the required space — no padding.
+     Var: There is no standard SQL data type called VAR
+          However:
+              Some systems (like MS Access) or programming contexts may use VAR as a shorthand or variable name.
+              In databases, when you say VAR, you almost always mean VARCHAR.
+
+10.Differences between SQL and NoSql?
+  SQL: SQL stands for Structured Query Language.
+       It is used in relational databases (RDBMS) — where data is stored in tables (rows & columns) with relationships between them.
+                Examples:
+                      MySQL
+                      PostgreSQL
+                      Oracle
+                      Microsoft SQL Server
+       Data is structured, related, and follows a strict schem
+  NoSQL: NoSQL stands for Not Only SQL.
+         It is used for unstructured or semi-structured data — no fixed table format, and no strict schema.
+                                  Examples:
+                                        MongoDB
+                                        Cassandra
+                                        Redis
+                                        CouchDB
+                                        Firebase
+          Data is stored as documents (JSON-like), key-value pairs, or graphs.
+    
+  
        
   
     
