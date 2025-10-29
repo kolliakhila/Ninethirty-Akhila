@@ -11,3 +11,4 @@ if is_prime(num):
 else:
     print(num, "is NOT a Prime number")
 
+
