@@ -1,0 +1,7 @@
+def sum_of_elements(tuple):
+    sum=0
+    for i in tuple:
+        sum=sum+i
+    return sum
+my_tuple=(3,5,7)
+print(sum_of_elements(my_tuple))

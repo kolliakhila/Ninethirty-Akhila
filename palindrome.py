@@ -19,3 +19,11 @@ def is_palindrome(s):
     return True
 
 print(is_palindrome("racecar"))
+
+
+#using slicing
+def palindrome(string):
+    string=string.replace("","").lower()
+    return string==string[::-1]
+print(palindrome("Akhila"))
+print(palindrome("POP"))

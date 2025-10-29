@@ -7,3 +7,16 @@ def second_largest(nums):
     return nums[-2]
 nums=[25,42,89,19,10,12]
 print(second_largest(nums))
+
+
+
+#second largest
+list=[1,9,8,4,6,5]
+list.sort()
+print("Second largest number is",list[-2])
+
+#maximum number in list
+def max_number(l):
+    return max(l)
+list=[4,6,7,9]
+print(max_number(list))
