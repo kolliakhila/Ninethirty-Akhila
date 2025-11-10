@@ -280,6 +280,44 @@ Contribute to open source:
                                         CouchDB
                                         Firebase
           Data is stored as documents (JSON-like), key-value pairs, or graphs.
+
+
+3-11-2025
+
+1. What is Database?
+  Database:
+          A database is an organized collection of data that is stored and managed electronically on a computer.
+          It allows you to store, retrieve, update, and delete data easily and efficiently.
+
+2. How many types of Databases?
+   Different kinds of Databases are there like:
+            > Relstional Database(RDBMS)
+            > Non-Relational Database
+            > Hierarchical Database
+            > Network Database
+            > ObjectOriented Database
+            > Timeseries Database
+            > Distributed Database
+            > Graph Database
+            > Cloud Database
+            > Key-value Database
+
+3. What is UML?
+   UML (Unified Modeling Language) is a visual modeling language used to design and represent the structure and behavior of
+   a software system before actually coding it.
+   It is used for:
+      To visualize how the system works.
+      To communicate ideas between developers, designers, and clients.
+      To plan database structures and API designs before implementation.
+   UML → “Draw before you build” (visual design of system).
+
+5. What is Schema?
+   A Schema is the structure or blueprint of how data is stored in a database.
+      It defines the organization of data.
+      Ensures consistency and validation of data.
+      Helps developers understand the data model quickly.
+   Schema → “Blueprint of your database” (how data is stored).
+     
     
   
        
