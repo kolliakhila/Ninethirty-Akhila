@@ -1,16 +1,16 @@
-#Finding second largest number in a list
-# def second_largest(nums):
-#     nums=list(set(nums))
-#     if len(nums)<2:
-#         return None
-#     nums.sort()
-#     return nums[-2]
-# nums=[25,42,89,19,10,12]
-# print(second_largest(nums))
-
-
-
-# #second largest
-# list=[1,9,8,4,6,5]
-# list.sort()
-# print("Second largest number is",list[-2])
+def largest_primefactor(n):
+#     largest=None
+#     while n%2==0:
+#         largest=2
+#         n=n//2
+#     i=3
+#     while i*i<=n:
+#         while n%i==0:
+#             largest=i
+#             n=n//i
+#         i+=2
+#     if n>1:
+#         largest=n
+#     return largest
+# number=600851475143
+# print("Largest prime factor of 600851475143 is :",largest_primefactor(number))
